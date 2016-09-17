@@ -1,23 +1,22 @@
-function addOne(x) {
-  return x + 1;
-}
-function timesTwo(x) {
-  return x * 2;
-}
-function addOneTimesTwo(x) {
-  var holder = x;
+const addOne = x => x + 1;
+const timesTwo = x => x * 2;
+
+const addOneTimesTwo = x => {
+  let holder = x;
   holder = addOne(holder);
   holder = timesTwo(holder);
   return holder;
-}
+};
+
 console.log(addOneTimesTwo(3)); //8
 console.log(addOneTimesTwo(4)); //10
 
-function timesTwoAddOne(x) {
-  var holder = x;
+const timesTwoAddOne = x => {
+  let holder = x;
   holder = timesTwo(holder);
   holder = addOne(holder);
   return holder;
-}
+};
+
 console.log(timesTwoAddOne(3)); //7
 console.log(timesTwoAddOne(4)); //9

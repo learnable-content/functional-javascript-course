@@ -1,4 +1,4 @@
-var greetWrongType = greetCurried(5);
+const greetWrongType = greetCurried(5);
 console.log(greetWrongType("Heidi")); // "Greetings"
 console.log(greetWrongType(5)); // "Greetings"
 console.log(greetWrongType(false)); // "Greetings"

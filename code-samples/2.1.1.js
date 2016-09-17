@@ -1,6 +1,6 @@
-var factor = function(number) {
-  var result = 1;
-  var count = number;
+const factor = number => {
+  let result = 1;
+  let count = number;
   while(count > 1) {
     result *= count;
     count--

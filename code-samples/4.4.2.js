@@ -1,6 +1,4 @@
-var animals = ["cat","dog","fish"];
-var threeLetterAnimals = animals.filter(exactlyThree);
-function exactlyThree(word) {
-  return (word.length === 3);
-}
+const animals = ["cat","dog","fish"];
+const exactlyThree = word => word.length === 3;
+let threeLetterAnimals = animals.filter(exactlyThree);
 console.log(threeLetterAnimals); // ["cat", "dog"]

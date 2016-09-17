@@ -1,9 +1,7 @@
-var counter = 10;
+let counter = 10;
 while(counter > 0) {
-    console.log(counter--);
-}
-
-/*
+  console.log(counter--);
+} /*
 10
 9
 8

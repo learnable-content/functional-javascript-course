@@ -1,5 +1,3 @@
-var animals = ["cat","dog","fish"];
-var total = animals.reduce(function(sum, word) {
-  return sum + word.length;
-}, 0);
+const animals = ["cat","dog","fish"];
+let total = animals.reduce((sum, word) => sum + word.length, 0);
 console.log(total); //10

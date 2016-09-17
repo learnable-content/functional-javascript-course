@@ -1,10 +1,8 @@
-var animals = ["cat","dog","fish"];
-var threeLetterAnimalsArray = [];
-var threeLetterAnimals;
-var item;
-var count;
-for (count = 0; count < animals.length; count++){
-  item = animals[count];
+const animals = ["cat","dog","fish"];
+let threeLetterAnimalsArray = [];
+let threeLetterAnimals;
+for (let count = 0; count < animals.length; count++){
+  let item = animals[count];
   if (item.length === 3) {
     item = item.charAt(0).toUpperCase() + item.slice(1);
     threeLetterAnimalsArray.push(item);

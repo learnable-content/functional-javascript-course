@@ -1,7 +1,7 @@
-var animals = ["cat","dog","fish"];
-var threeLetterAnimals = [];
-var count;
-for (count = 0; count < animals.length; count++){
+const animals = ["cat","dog","fish"];
+const animalsLength = animals.length;
+let threeLetterAnimals = [];
+for (let count = 0; count < animalsLength; count++){
   if (animals[count].length === 3) {
     threeLetterAnimals.push(animals[count]);
   }

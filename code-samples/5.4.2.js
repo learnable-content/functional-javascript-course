@@ -1,13 +1,9 @@
-function compose(f1, f2) {
-  return function() {
+const compose = (f1, f2) => {
+  return () => {
     return f1.call(this, f2.apply(this, arguments));
   };
-}
-function addOne(x) {
-  return x + 1;
-}
-function divide(x, y) {
-  return x / y;
-}
-var divideAndAdd = compose(addOne, divide);
+};
+const addOne = x => x + 1;
+const timesTwo = x => x * 2;
+const divideAndAdd = compose(addOne, divide);
 console.log(divideAndAdd(4,2)); // 3

@@ -1,11 +1,7 @@
-function addOne(x) {
-  return x + 1;
-}
-function timesTwo(x) {
-  return x * 2;
-}
-function addOneTimesTwo(x) {
-  var holder = x;
+const addOne = x => x + 1;
+const timesTwo = x => x * 2;
+const addOneTimesTwo = x => {
+  let holder = x;
   holder = addOne(holder);
   holder = timesTwo(holder);
   return holder;

@@ -9,6 +9,6 @@ function greetCurried(greeting) {
   }
 }
 
-var greetHowdy = greetCurried("Hello");
+const greetHowdy = greetCurried("Hello");
 console.log(greetHello("Heidi")); // "Hello, Heidi"
 console.log(greetHello(5)); // "Hello"

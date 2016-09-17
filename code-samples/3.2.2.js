@@ -9,14 +9,14 @@ function greetCurried(greeting) {
   }
 }
 
-var greetHowdy = greetCurried("Hello");
+const greetHowdy = greetCurried("Hello");
 console.log(greetHello("Heidi")); // "Hello, Heidi"
 console.log(greetHello(5)); // "Hello"
 
-var greetHi = greetCurried("Hi");
+const greetHi = greetCurried("Hi");
 console.log(greetHi("Heidi")); // "Hi, Heidi"
 console.log(greetHi(5)); // "Hi"
 
-var greetHowdy = greetCurried("Howdy");
+const greetHowdy = greetCurried("Howdy");
 console.log(greetHowdy("Heidi")); // "Howdy, Heidi"
 console.log(greetHowdy(5)); // "Howdy"
