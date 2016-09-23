@@ -1,3 +1,6 @@
-const addOne = x => x + 1;
-const timesTwo = x => x * 2;
-console.log(addOne(timesTwo(3))); //7
+// from earlier examples with the methods
+// exactlyThree, capitalize, and merged defined
+const animals = ["cat","dog","fish"];
+let threeLetterAnimals = animals.filter(exactlyThree)
+                                .map(capitalize)
+                                .reduce(merged);

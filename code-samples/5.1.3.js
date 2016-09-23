@@ -1,2 +1,4 @@
-console.log(timesTwo(addOne(addOne(timesTwo(3))))); //16
-console.log(addOne(timesTwo(timesTwo(addOne(3))))); //17
+const addOne = x => x + 1;
+const timesTwo = x => x * 2;
+console.log(addOne(timesTwo(3))); //7
+console.log(timesTwo(addOne(3))); //8

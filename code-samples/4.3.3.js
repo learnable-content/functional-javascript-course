@@ -1,4 +1,4 @@
 const animals = ["cat","dog","fish"];
-const addLength = (sum, word) => sum + word.length;
-let total = animals.reduce(addLength, 0);
-console.log(total); //10
+const addLength = (sum, item) => sum + item.length;
+let letterCount = animals.reduce(addLength, 0);
+console.log(letterCount); //10

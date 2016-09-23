@@ -1,12 +1,16 @@
-function greetDeeplyCurried(greeting) {
-  return function(separator) {
-    return function(emphasis) {
-      return function(name) {
-        return (greeting + separator + name + emphasis);
-      };
-    };
-  };
-}
+// function greetDeeplyCurried(greeting) {
+//   return function(separator) {
+//     return function(emphasis) {
+//       return function(name) {
+//         return (greeting + separator + name + emphasis);
+//       };
+//     };
+//   };
+// }
+
+const greetDeeplyCurried = greeting => separator => emphasis => name => {
+  return greeting + separator + name + emphasis;
+};
 
 const greetAwkwardly = greetDeeplyCurried("Hello")("...")("?");
 console.log(greetAwkwardly("Heidi")); //"Hello...Heidi?"

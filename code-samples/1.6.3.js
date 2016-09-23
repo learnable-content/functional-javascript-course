@@ -1,4 +1,4 @@
-const attitude = (original, replacement, source) => source => source.replace(original, replacement);
+const attitude = (original, replacement) => source => source.replace(original, replacement);
 const snakify = attitude(/millenials/ig, "Snake People");
 const hippify = attitude(/baby boomers/ig, "Aging Hippies");
 
