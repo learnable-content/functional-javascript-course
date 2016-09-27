@@ -1,4 +1,4 @@
-const attitude = (original, replacement, source) => {
+const attitude = (original, replacement) => {
   return function(source) {
     return source.replace(original, replacement);
   };
