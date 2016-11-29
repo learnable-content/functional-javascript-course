@@ -1,2 +1,2 @@
-const greetGoodbye = curryIt(greeter, "Goodbye", ", ");
-console.log(greetGoodbye(".", "Joe")); //"Goodbye, Joe."
+const greetGoodbye = partial(greeter, "Goodbye", ", ");
+console.log(greetGoodbye(".", "Joe"));
