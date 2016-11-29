@@ -1,8 +1,3 @@
-document.getElementById("clicker").addEventListener("click", function(e) {
-  alert(`you triggered ${this.id}`);
-});
-
-const proveIt = function(e) {
-  alert(`you triggered ${this.id}`);
-}
-document.getElementById("clicker").addEventListener("click", proveIt);
+const logTime = () => console.log(new Date().toLocaleTimeString());
+const timer = setInterval(logTime, 1000);
+setTimeout(() => clearInterval(timer), 3000);
