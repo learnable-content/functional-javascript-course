@@ -1,4 +1,4 @@
-![](headings/1.1.png)
+![](Getting_Started_With_Functional_JavaScript_handouts/headings/1.1.png)
 
 Hi, I'm M David Green and welcome you to this course on **functional JavaScript** from SitePoint. By the end of this course you're going to understand what functional JavaScript means and how to effectively apply it in the programming that you do.
 
