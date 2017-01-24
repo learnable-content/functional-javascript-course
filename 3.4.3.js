@@ -1,10 +1,6 @@
-const partial = (variadic, ...args) => {
-  return (...subargs) => variadic.apply(this, args.concat(subargs));
-};
-
-const greeter = (greeting, separator, emphasis, name) => {
+function greeter(greeting, separator, emphasis, name) {
   return (greeting + separator + name + emphasis);
-};
-
-const greetHello = partial(greeter, "Hello", ", ", ".");
-console.log(greetHello("Heidi"));
+}
+const greetHello = curryIt(greeter, "Hello", ", ", ".");
+console.log(greetHello("Heidi")); //"Hello, Heidi."
+console.log(greetHello("Eddie")); //"Hello, Eddie."

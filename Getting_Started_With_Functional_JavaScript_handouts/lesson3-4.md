@@ -1,4 +1,4 @@
-![](Getting_Started_With_Functional_JavaScript_handouts/headings/3.4.png)
+![](headings/3.4.png)
 
 So we've been talking about currying in JavaScript, but currying as a concept comes from functional programming languages where there's more control over the signatures of the functions. It's a little bit more tricky to apply it in a JavaScript context. And because of that it's worth bringing up the concept of partial application, especially when dealing with variadic functions.
 
