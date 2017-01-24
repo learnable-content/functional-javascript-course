@@ -1,4 +1,4 @@
-![](Getting_Started_With_Functional_JavaScript_handouts/headings/5.3.png)
+![](headings/5.3.png)
 
 Based on what we've seen already, it's not too difficult to conceive of what a compose utility would look like, and how you might construct one. So, let's create our own basic `compose` function. It's going to need to take two functions as arguments, and then return a composed function that nests them. The function that it returns is going to have to take a value that we can pass in.
 
