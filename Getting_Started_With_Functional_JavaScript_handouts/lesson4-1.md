@@ -1,4 +1,4 @@
-![](Getting_Started_With_Functional_JavaScript_handouts/headings/4.1.png)
+![](headings/4.1.png)
 
 Welcome  to Lesson 4 of Functional Programming in JavaScript from SitePoint. In this lesson, we're going to be talking about `map`, `reduce` and `filter`, three of the new array methods that we've gotten in ECMAScript 5. We're also going to show how we can use these together with chaining to take better advantage of the functional potential of JavaScript.
 
