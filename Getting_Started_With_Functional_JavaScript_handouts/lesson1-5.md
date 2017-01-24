@@ -1,4 +1,4 @@
-![](Getting_Started_With_Functional_JavaScript_handouts/headings/1.5.png)
+![](headings/1.5.png)
 
 One of the first concepts that it's useful to understand when thinking about functional programming is the concept of **Pure Functions**. And this idea is so useful, that even if you don't do anything else with functional programming, integrating this into the way that you develop your functions is going to change your JavaScript tremendously.
 
