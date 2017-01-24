@@ -1,4 +1,4 @@
-![](Getting_Started_With_Functional_JavaScript_handouts/headings/6.1.png)
+![](headings/6.1.png)
 
 Welcome back to the 6th and final lesson in Functional Programming in JavaScript from SitePoint. In this lesson, I'd just like to go over some of the things that we've learned, focus your attention on some of the key takeaways, and discuss how you can take this to the next level in your own code.
 
