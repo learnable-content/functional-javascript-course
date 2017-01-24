@@ -1,4 +1,4 @@
-![](Getting_Started_With_Functional_JavaScript_handouts/headings/4.4.png)
+![](headings/4.4.png)
 
 The last of the new functional methods on the array that was introduced in ECMAScript 5 that we want to talk about is filtering, which produces a new array containing a subset of the elements in an existing array based on the condition that you set. Filtering limits the contents of an array.
 
