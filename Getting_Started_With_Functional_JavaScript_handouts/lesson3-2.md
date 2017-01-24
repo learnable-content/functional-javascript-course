@@ -1,4 +1,4 @@
-![](Getting_Started_With_Functional_JavaScript_handouts/headings/3.2.png)
+![](headings/3.2.png)
 
 In the last section I gave you an example of the type of problem that currying is great at solving. We were trying to create a greeter that could send different types of greetings to different types of people, and yet maintain some consistency across multiple functions that tried to do the same thing.
 
