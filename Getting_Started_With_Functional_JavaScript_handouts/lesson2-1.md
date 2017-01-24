@@ -1,4 +1,4 @@
-![](Getting_Started_With_Functional_JavaScript_handouts/headings/2.1.png)
+![](headings/2.1.png)
 
 Welcome back to Functional Programming with JavaScript, Lesson 2. We are going to talk about **recursion**.
 
