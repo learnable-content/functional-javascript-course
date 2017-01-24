@@ -1,4 +1,4 @@
-![](Getting_Started_With_Functional_JavaScript_handouts/headings/4.5.png)
+![](headings/4.5.png)
 
 So in this lesson I've introduced you to the `map` method, the `reduce` method, and the `filter` method. All of which were introduced in ECMAScript 5, and provide some good functional capabilities inside of JavaScript. But before we move on to the next topic, I do want to talk a little bit about performance with these methods, and also something about how to use them effectively.
 
