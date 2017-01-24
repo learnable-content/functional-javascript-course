@@ -1,4 +1,4 @@
-![](Getting_Started_With_Functional_JavaScript_handouts/headings/4.3.png)
+![](headings/4.3.png)
 
 The next functional method for arrays, that was introduced with ECMAScript 5, is the `reduce` method which takes all of the values in an array, goes through them one by one, and then produces a single result, based on a calculation performed across the series, while carrying a value forward.
 
