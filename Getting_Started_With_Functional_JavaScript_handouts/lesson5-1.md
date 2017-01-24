@@ -1,4 +1,4 @@
-![](Getting_Started_With_Functional_JavaScript_handouts/headings/5.1.png)
+![](headings/5.1.png)
 
 Welcome back, this is Lesson 5 of Functional Programming in JavaScript from SitePoint. In this lesson, we're going to talk about **composition**. Now we've already talked about a few different aspects of functional programming, but composition takes it to the next level, and looks at how you can build up new functionality using small pieces of existing functionality.
 
