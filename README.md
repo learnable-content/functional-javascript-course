@@ -1,4 +1,4 @@
-![](headings/3.1.png)
+![](Getting_Started_With_Functional_JavaScript_handouts/headings/3.1.png)
 
 Welcome back to functional programming in JavaScript, lesson three. In this lesson we will discuss **currying**.
 
