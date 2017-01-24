@@ -1,4 +1,4 @@
-![](Getting_Started_With_Functional_JavaScript_handouts/headings/1.2.png)
+![](headings/1.2.png)
 
 To help you understand what functional programming is, why don't we start with imperative JavaScript and take a whirlwind tour through the history of how JavaScript has been done over the years? 
 
