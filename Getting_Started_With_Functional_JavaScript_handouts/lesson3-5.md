@@ -1,4 +1,4 @@
-![](Getting_Started_With_Functional_JavaScript_handouts/headings/3.5.png)
+![](headings/3.5.png)
 
 So far in this course, we've looked at basic currying, and we've looked at partial application. But what if we wanna take it to the next level? We've created a partial utility, but frankly, it's not very robust. For one thing, it doesn't deal very well with missing parameters.
 
