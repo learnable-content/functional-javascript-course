@@ -1,4 +1,4 @@
-![](Getting_Started_With_Functional_JavaScript_handouts/headings/1.4.png)
+![](headings/1.4.png)
 
 JavaScript, as I've mentioned before, is a very versatile language. One of the things that makes it so versatile is that it can be used in an imperative style, it can be used in an object oriented style, and as you're about to see, it can also be used in a functional style.
 
