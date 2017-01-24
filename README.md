@@ -1,4 +1,4 @@
-![]((Getting_Started_With_Functional_JavaScript_handouts/headings/3.3.png)
+![](Getting_Started_With_Functional_JavaScript_handouts/headings/3.3.png)
 
 Now that we've been introduced to how currying works for a simple function which has a single argument being passed in. Let's imagine how we could do deep currying for a variadic function, a function with more than one argument to be passed in. Let's think about how we specific we can get with our greeting function.
 
