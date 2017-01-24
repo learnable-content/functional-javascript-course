@@ -1,4 +1,4 @@
-![](Getting_Started_With_Functional_JavaScript_handouts/headings/5.2.png)
+![](headings/5.2.png)
 
 Since this is a course in functional programming, the first thing that might occur to you after seeing how JavaScript can nest all of those functions, is manual composition, defining new functions based on nested versions of existing functions. So you could define a new function that behaves exactly like a set of nested function, and use smaller pure functions as components.
 
