@@ -1,4 +1,4 @@
-![](Getting_Started_With_Functional_JavaScript_handouts/headings/1.3.png)
+![](headings/1.3.png)
 
 After a while, people started recognizing that there were problems with pure imperative approaches to using JavaScript, especially in an environment where multiple people may be submitting script simultaneously to work in the browser. So people started using JavaScript's **Object Oriented capabilities**. What is Object Oriented Style in terms of JavaScript?
 
