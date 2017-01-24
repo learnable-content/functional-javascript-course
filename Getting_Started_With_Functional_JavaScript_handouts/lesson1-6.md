@@ -1,4 +1,4 @@
-![](Getting_Started_With_Functional_JavaScript_handouts/headings/1.6.png)
+![](headings/1.6.png)
 
 Another fundamental concept to understand when you're getting into functional programming is **Higher Order Functions**. So what is it that makes JavaScript functions different from functions in other languages? Some people say that JavaScript treats functions as first class citizens. What that really means is that the type of the function in JavaScript it's actually the same as the type of an object and as a result of that functions can be assigned to a variable just like a value.
 
