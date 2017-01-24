@@ -1,4 +1,4 @@
-![](Getting_Started_With_Functional_JavaScript_handouts/headings/2.2.png)
+![](headings/2.2.png)
 
 At the end of the last section, we left off with a `while` loop. And the reason I brought you two while loops is because they are good way to conceptualize how recursion works. So, let's think about a `while` loop and let's think about ways we can iterate without looping.
 
