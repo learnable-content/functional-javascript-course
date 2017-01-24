@@ -1,4 +1,4 @@
-![](Getting_Started_With_Functional_JavaScript_handouts/headings/4.2.png)
+![](headings/4.2.png)
 
 So we were looking at different ways that we could approach looping inside of JavaScript without the need to maintain state and all those extra variables. And the first new method that I'd like to introduce you to is the `map` method on the array. Mapping lets you create a new array by modifying the values in an existing array, and returning another array that has exactly the same number of elements but they've all been modified according to a function that you pass in.
 
