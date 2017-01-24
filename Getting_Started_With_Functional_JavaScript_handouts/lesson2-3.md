@@ -1,4 +1,4 @@
-![](Getting_Started_With_Functional_JavaScript_handouts/headings/2.3.png)
+![](headings/2.3.png)
 
 It would be great if I could tell you that recursion works flawlessly and that you don't have to worry about anything when you start using it. But unfortunately recursion does have a price and there are some things you need to consider. First of all the syntax may be a little bit confusing for people who are unfamiliar with the concept.
 
