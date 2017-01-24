@@ -1,4 +1,4 @@
-E![](Getting_Started_With_Functional_JavaScript_handouts/headings/6.2.png)
+![](headings/6.2.png)
 
 So, what's next for you with functional programming in JavaScript? That's entirely up to you, but I'd like you to start trying to apply these ideas today. You don't have to use functional techniques exclusively. It's possible to build an entire JavaScript application using nothing but functional code. And while your code will probably be very clean, it might not be the most efficient, it might not be the most maintainable, and it might not be the most understandable.
 
